@@ -26,8 +26,13 @@ asyncio is used as a foundation for multiple Python asynchronous
 frameworks that provide high-performance network and web-servers,
 database connection libraries, distributed task queues, etc.
 
-asyncio is often a perfect fit for IO-bound and high-level
-**structured** network code.
+.. seealso::
+
+   For structured concurrency, consider using the `Trio package
+   <https://trio.readthedocs.io/en/stable/>`_.  The `AnyIO package
+   <https://trio.readthedocs.io/en/stable/>`_ runs on either asyncio
+   or Trio, making it ideal for gradual migrations and libraries
+   which wish to support both asyncio and Trio users.
 
 asyncio provides a set of **high-level** APIs to:
 
