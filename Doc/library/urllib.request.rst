@@ -18,8 +18,9 @@ authentication, redirections, cookies and more.
 
 .. seealso::
 
-    The `Requests package <https://requests.readthedocs.io/en/master/>`_
-    is recommended for a higher-level HTTP client interface.
+    For a higher-level HTTP client interface, we recommend using the
+    `httpx package <https://www.python-httpx.org/>`_, or the older
+    `requests package <https://requests.readthedocs.io/en/master/>`_.
 
 .. warning::
 
